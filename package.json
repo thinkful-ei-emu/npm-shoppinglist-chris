@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/thinkful-ei-emu/npm-shoppinglist-chris/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-emu/npm-shoppinglist-chris#readme"
+  "homepage": "https://github.com/thinkful-ei-emu/npm-shoppinglist-chris#readme",
+  "dependencies": {
+    "cuid": "^2.1.6",
+    "jquery": "^3.4.1"
+  }
 }
