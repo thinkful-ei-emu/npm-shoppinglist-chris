@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "description": "Created for the Thinkful EI Program.",
   "main": "index.js",
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "semi": "error"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
@@ -21,7 +33,8 @@
   "homepage": "https://github.com/thinkful-ei-emu/npm-shoppinglist-chris#readme",
   "dependencies": {
     "cuid": "^2.1.6",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "css-loader": "^3.0.0",

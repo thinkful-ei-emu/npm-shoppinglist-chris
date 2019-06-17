@@ -1,9 +1,7 @@
 'use strict';
-import $ from 'jquery';
-import '../styles/index.css';
 
 // eslint-disable-next-line no-unused-vars
-export const store = (function(){
+
   const setError = function(error) {
     this.error = error;
   };
@@ -38,7 +36,7 @@ export const store = (function(){
     this.searchTerm = term;
   };
 
-  return {
+  export default {
     items: [],
     error: null,
     hideCheckedItems: false,
@@ -54,4 +52,3 @@ export const store = (function(){
     setItemIsEditing,
   };
   
-});

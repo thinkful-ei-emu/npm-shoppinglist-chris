@@ -1,8 +1,5 @@
 'use strict';
-import $ from 'jquery';
-import '../styles/index.css';
 
-export const api = (function(){
   const BASE_URL = 'https://thinkful-list-api.herokuapp.com/rich';
 
   /**
@@ -80,10 +77,9 @@ export const api = (function(){
     });
   };
 
-  return {
+  export default {
     getItems,
     createItem,
     updateItem,
     deleteItem,
   };
-});
