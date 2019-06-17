@@ -1,6 +1,9 @@
 'use strict';
+import $ from 'jquery';
+import '../styles/index.css';
+
 // eslint-disable-next-line no-unused-vars
-const store = (function(){
+export const store = (function(){
   const setError = function(error) {
     this.error = error;
   };
@@ -51,4 +54,4 @@ const store = (function(){
     setItemIsEditing,
   };
   
-}());
+});
